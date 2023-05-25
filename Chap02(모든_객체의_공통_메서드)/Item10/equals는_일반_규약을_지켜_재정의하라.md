@@ -51,6 +51,7 @@
       System.out.println(test.equals(caseInsensitiveString)); // false
     }
     ```
+    
   - ### 추이성 : `null`이 아닌 모든 참조 값 x, y, z에 대해 `x.equals(y)`가 `true`이고, `y.equals(z)`도 `true`면, `x.equlas(z)`도 `true`다
     ``` java
     // Point
